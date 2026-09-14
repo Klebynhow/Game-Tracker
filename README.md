@@ -1,6 +1,6 @@
 # game_tracker
 
-A new Flutter project.
+Faixa 8 da aula de desenvolvimento de dispositivos móveis
 
 ## Getting Started
 
