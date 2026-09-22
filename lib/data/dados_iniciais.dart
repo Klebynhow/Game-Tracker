@@ -1,0 +1,66 @@
+import '../models/jogo.dart';
+
+List<Jogo> getJogosIniciais() {
+  return [
+    Jogo(
+      id: '1',
+      nome: 'The Witcher 3: Wild Hunt',
+      imagemUrl: 'https://picsum.photos/seed/witcher/400/250',
+      genero: 'RPG',
+      plataforma: 'PC / Console',
+      descricao: 'Geralt de Rívia busca sua filha adotiva em um mundo aberto devastado.',
+      horasJogadas: 120.0,
+      avaliacao: 9.8,
+    ),
+    Jogo(
+      id: '2',
+      nome: 'God of War Ragnarök',
+      imagemUrl: 'https://picsum.photos/seed/gow/400/250',
+      genero: 'Ação / Aventura',
+      plataforma: 'PlayStation',
+      descricao: 'Kratos e Atreus embarcam em uma jornada mítica pelos Nove Reinos.',
+      horasJogadas: 45.5,
+      avaliacao: 9.5,
+    ),
+    Jogo(
+      id: '3',
+      nome: 'Hades II',
+      imagemUrl: 'https://picsum.photos/seed/hades/400/250',
+      genero: 'Roguelike',
+      plataforma: 'PC',
+      descricao: 'Enfrente o Titã do Tempo na sequência do aclamado roguelike.',
+      horasJogadas: 30.0,
+      avaliacao: 9.0,
+    ),
+    Jogo(
+      id: '4',
+      nome: 'Minecraft',
+      imagemUrl: 'https://picsum.photos/seed/minecraft/400/250',
+      genero: 'Sandbox',
+      plataforma: 'Multiplataforma',
+      descricao: 'Explore mundos infinitos e construa desde casas simples a castelos grandiosos.',
+      horasJogadas: 210.0,
+      avaliacao: 8.5,
+    ),
+    Jogo(
+      id: '5',
+      nome: 'Elden Ring',
+      imagemUrl: 'https://picsum.photos/seed/elden/400/250',
+      genero: 'Action RPG',
+      plataforma: 'PC / Console',
+      descricao: 'Explore as Terras Intermédias e reivindique o poder do Anel Prístino.',
+      horasJogadas: 95.0,
+      avaliacao: 9.7,
+    ),
+    Jogo(
+      id: '6',
+      nome: 'Stardew Valley',
+      imagemUrl: 'https://picsum.photos/seed/stardew/400/250',
+      genero: 'Simulação',
+      plataforma: 'Multiplataforma',
+      descricao: 'Crie a fazenda dos seus sonhos e viva da terra nesta simpática simulação.',
+      horasJogadas: 60.0,
+      avaliacao: 8.8,
+    ),
+  ];
+}
