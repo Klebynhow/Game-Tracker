@@ -84,11 +84,11 @@ class _DetalhesJogoScreenState extends State<DetalhesJogoScreen> {
                       Row(
                         children: [
                           IconButton(
-                            icon: const Icon(Icons.remove_circle_outline, color: Colors.red),
+                            icon: const Icon(Icons.remove_circle_outline, color: Color.fromARGB(255, 184, 2, 87)),
                             onPressed: () => _alterarAvaliacao(-0.5),
                           ),
                           IconButton(
-                            icon: const Icon(Icons.add_circle_outline, color: Colors.green),
+                            icon: const Icon(Icons.add_circle_outline, color: Color.fromARGB(255, 34, 202, 231)),
                             onPressed: () => _alterarAvaliacao(0.5),
                           ),
                         ],
