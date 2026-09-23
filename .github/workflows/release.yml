@@ -3,7 +3,7 @@ name: Criar Release e Gerar APK
 on:
   push:
     branches:
-        -main
+        - main
     tags:
       - 'v*.*.*'
 
